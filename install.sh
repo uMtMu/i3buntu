@@ -17,11 +17,11 @@ apt-get update # To get the latest package lists
 
 ###### Install main apps, drivers and dependencies
 apt-get install -y ubuntu-drivers-common
-# apt-get install -y ubuntu-restricted-extras
-apt-get install -y ubuntu-docs
+apt-get install -y ubuntu-restricted-extras
+# apt-get install -y ubuntu-docs
 apt-get install -y ttf-ubuntu-font-family
 apt-get install -y libnm-gtk-common
-apt-get install -y ubuntu-wallpapers ubuntu-wallpapers-xenial
+# apt-get install -y ubuntu-wallpapers ubuntu-wallpapers-xenial
 apt-get install -y openssh-client
 apt-get install -y libstartup-notification0 upstart
 apt-get install -y evince evince-common
@@ -46,18 +46,19 @@ apt-get install -y wireless-tools
 apt-get install -y lightdm-gtk-greeter
 apt-get install -y lightdm-gtk-greeter-settings
 apt-get install -y overlay-scrollbar overlay-scrollbar-gtk2
-apt-get install -y brasero
+# apt-get install -y brasero
 apt-get install -y gnome-bluetooth
 apt-get install -y libbluetooth3 libgnome-bluetooth13
 apt-get install -y pulseaudio-module-bluetooth
 apt-get install -y pulseaudio-module-x11
 apt-get install -y totem-plugins gromit
 apt-get install -y gstreamer1.0-pulseaudio
-apt-get install -y transmission-gtk
+# apt-get install -y transmission-gtk
 apt-get install -y pactl xbacklight
 apt-get install -y feh gnome-icon-theme-full
 apt-get install -y rofi compton
-apt-get install -y gnome-terminal
+# apt-get install -y gnome-terminal
+apt-get install -y terminator
 apt-get install -y gedit
 apt-get install -y git
 apt-get install -y i3 i3-wm i3blocks i3lock i3status
@@ -108,7 +109,7 @@ apt-get install -y libgsettings-qt1
 apt-get install -y libproxy1-plugin-gsettings
 apt-get install -y libappindicator3-1
 apt-get install -y gir1.2-appindicator3-0.1 gdebi
-apt-get install -y caffeine
+# apt-get install -y caffeine
 
 ##### Get and install infinality (better font rendering)
 add-apt-repository ppa:no1wantdthisname/ppa -y
