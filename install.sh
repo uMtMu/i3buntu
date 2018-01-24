@@ -47,19 +47,19 @@ apt-get install -y lightdm-gtk-greeter
 apt-get install -y lightdm-gtk-greeter-settings
 apt-get install -y overlay-scrollbar overlay-scrollbar-gtk2
 # apt-get install -y brasero
-apt-get install -y gnome-bluetooth
-apt-get install -y libbluetooth3 libgnome-bluetooth13
+# apt-get install -y gnome-bluetooth
+# apt-get install -y libbluetooth3 libgnome-bluetooth13
 apt-get install -y pulseaudio-module-bluetooth
 apt-get install -y pulseaudio-module-x11
-apt-get install -y totem-plugins gromit
+apt-get install -y totem-plugins # gromit
 apt-get install -y gstreamer1.0-pulseaudio
 # apt-get install -y transmission-gtk
 apt-get install -y pactl xbacklight
 apt-get install -y feh gnome-icon-theme-full
-apt-get install -y rofi compton
+apt-get install -y rofi # compton
 # apt-get install -y gnome-terminal
 apt-get install -y terminator
-apt-get install -y gedit
+apt-get install -y scite # gedit
 apt-get install -y git
 apt-get install -y i3 i3-wm i3blocks i3lock i3status
 apt-get install -y xserver-xorg-video-intel
@@ -117,10 +117,10 @@ apt-get update
 apt-get upgrade -y
 apt-get install -y fontconfig-infinality
 
-###### Get and install playerctl
-wget 'https://github.com/acrisci/playerctl/releases/download/v0.5.0/playerctl-0.5.0_amd64.deb'
-dpkg -i playerctl-0.5.0_amd64.deb
-rm -rf playerctl-0.5.0_amd64.deb
+# ###### Get and install playerctl
+# wget 'https://github.com/acrisci/playerctl/releases/download/v0.5.0/playerctl-0.5.0_amd64.deb'
+# dpkg -i playerctl-0.5.0_amd64.deb
+# rm -rf playerctl-0.5.0_amd64.deb
 
 ###### Remove old versions of the Arc theme
 rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
